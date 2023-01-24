@@ -7,7 +7,8 @@
     align-items: center;
     .programsHead{
         text-align: center;
-        width: 30%;
+        width: 40%;
+        padding: 40px 0 40px 0;
         h2{
             font-size: 50px;
         }
@@ -15,7 +16,9 @@
     .programmerDivs{
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 75%;
+        padding: 40px 0 40px 0;
+        align-items: center;
         .img{
             img{
                 width: 640px;

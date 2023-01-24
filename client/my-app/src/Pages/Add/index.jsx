@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from '../../Layouts/Navbar'
+import SignupForm from '../../Components/InputAdd'
+import Footer from '../../Layouts/Footer'
+import NavbarAdd from '../../Layouts/NavbarAdd'
 
 function Add() {
   return (
     <>
-    <Navbar/>
+    <NavbarAdd/>
+    <SignupForm/>
+    <Footer/>
     </>
   )
 }

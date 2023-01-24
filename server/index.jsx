@@ -13,9 +13,10 @@ const {Schema} = mongoose
 
 
 const userSchema =new Schema({
+    imageUrl:{type:String,required:true},
     name:{type:String,required:true},
+    job:{type:String,required:true},
     description:{type:String,required:true},
-    imageUrl:{type:String,required:true}
 },{timestamps:true}
 );
 
@@ -61,9 +62,11 @@ app.delete("/users/:id", (req,res)=>{
 app.post("/users",(req,res)=>{
     console.log(req.body);
     let newUser = new Users({
+        imageUrl:req.body.imageUrl,
         name:req.body.name,
+        job:req.body.job,
         description:req.body.description,
-        imageUrl:req.body.imageUrl
+        
     })
     newUser.save();
 

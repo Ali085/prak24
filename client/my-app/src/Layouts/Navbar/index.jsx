@@ -5,16 +5,16 @@ import './index.scss'
 function Navbar() {
   return (
     <nav>
-        <div className='navDiv'>
-            <div className="logo"><Link to={"/"}>OneSchool</Link></div>
-            <div className="list">
-                <ul>
-                    <li>Home</li>
-                    <li>Add Page</li>
-                </ul>
-            </div>
-            <div className="contact"><button>CONTACT US</button></div>
+      <div className='navDiv'>
+        <div className="logo"><Link to={"/"}>OneSchool</Link></div>
+        <div className="list">
+          <ul>
+            <Link to={"/"}><li>Home</li></Link>
+            <Link to={"/addpage"}><li>Add Page</li> </Link>
+          </ul>
         </div>
+        <div className="contact"><button>CONTACT US</button></div>
+      </div>
     </nav>
   )
 }

@@ -1,0 +1,69 @@
+.Message{
+    min-height: 125vh;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .MessageDiv{
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 30px;
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 18px;
+            color: gray;
+        }
+    }
+    .MessageDivNameInp{
+        display: flex;
+       
+        gap: 30px;
+        input{
+            width: 300px;
+            height: 45px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+    }
+    .MessageDivEmail{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 600px;
+            height: 45px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+    }
+    .MessageDivTextArea{
+
+        textarea{
+            width: 600px;
+            height: 380px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+    }
+    .MessageBtn{
+        button{
+
+            width: 270px;
+            height: 50px;
+            background-color: #7971ea;
+            border:none;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
