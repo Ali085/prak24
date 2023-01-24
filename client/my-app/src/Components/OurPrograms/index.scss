@@ -1,0 +1,52 @@
+.Programs{
+    min-height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .programsHead{
+        text-align: center;
+        width: 30%;
+        h2{
+            font-size: 50px;
+        }
+    }
+    .programmerDivs{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        .img{
+            img{
+                width: 640px;
+            }
+        }
+    }
+    .educationTxt{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 400px;
+        justify-content: space-around;
+        h3{
+            font-size: 36px; 
+            font-weight: 400;  
+         }
+         p{
+            font-size: 20px;
+            color: gray;
+         }
+         .iconText{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #7971ea;
+            i{
+                font-size: 24px;
+            }
+            p{
+                color: #7971ea;
+            }
+         }
+    }
+}
